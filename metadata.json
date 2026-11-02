@@ -1,0 +1,6 @@
+{
+  "name": "TK EARNED BD – Professional Earning Platform",
+  "description": "TK EARNED BD: Bangladesh premier earning platform with verified tasks, 10-second security ad timer, bKash/Nagad/USDT withdrawals, and live admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

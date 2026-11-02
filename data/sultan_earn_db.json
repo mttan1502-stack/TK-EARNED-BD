@@ -1,0 +1,354 @@
+{
+  "users": [
+    {
+      "id": "user-demo-1",
+      "userId": "SE-102938",
+      "name": "Tanvir Ahmed",
+      "email": "user@example.com",
+      "phone": "+8801712345678",
+      "role": "user",
+      "refCode": "SULTAN1029",
+      "balance": 550,
+      "totalEarned": 1250,
+      "taskEarned": 820,
+      "referralEarned": 280,
+      "adsEarned": 150,
+      "status": "active",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Tanvir",
+      "createdAt": "2026-10-23T20:08:18.343Z",
+      "passwordHash": "bd9c0fd1d85dcacad1587fff6a6715eb50faf8a34a2d170d96b338c60a201f60c9569ed958453d9e45cbdb731fc962d23c5e884efd74cadda4f69a1370fad384",
+      "salt": "1274744e9c5408b6aa7720f8d860efbf"
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin-sultan-1",
+      "username": "Sultan",
+      "role": "admin",
+      "lastLogin": "2026-11-02T20:20:07.661Z",
+      "passwordHash": "ca20c56c4f8f798e4c76f659db6bf030fc1a7143a56617525d5f73fea71a1508d30cc1913395e5a322ec5bfafb1b0da69cd18c02c14e9661790ce9ba28086655",
+      "salt": "0f03711f0035b259b6df473ddb2477b1"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Follow SULTAN EARN Official Telegram Channel",
+      "category": "social_task",
+      "description": "Join the official Telegram broadcast channel to get instant updates on high-paying sponsor bonuses.",
+      "rewardBdt": 25,
+      "durationSeconds": 30,
+      "targetUrl": "https://telegram.org",
+      "instructions": "Click the sponsor link, stay on page for 30s, and confirm username in submission box.",
+      "dailyLimit": 1,
+      "completedCount": 24,
+      "status": "active",
+      "createdAt": "2026-10-30T20:08:18.343Z"
+    },
+    {
+      "id": "task-2",
+      "title": "Install & Review Global Crypto Web Wallet",
+      "category": "app_review",
+      "description": "Visit the official app download page and test the new zero-fee crypto wallet interface.",
+      "rewardBdt": 45,
+      "durationSeconds": 60,
+      "targetUrl": "https://example.com/wallet-review",
+      "instructions": "Browse the wallet security features, stay active on the page for 60 seconds.",
+      "dailyLimit": 1,
+      "completedCount": 18,
+      "status": "active",
+      "createdAt": "2026-10-31T20:08:18.343Z"
+    },
+    {
+      "id": "task-3",
+      "title": "Daily Web Ad Sponsor Discovery #1",
+      "category": "web_visit",
+      "description": "Explore our top sponsor e-commerce marketplace and browse featured electronics.",
+      "rewardBdt": 18,
+      "durationSeconds": 20,
+      "targetUrl": "https://example.com/sponsor-mall",
+      "instructions": "Visit the sponsored marketplace and scroll through at least 2 product listings.",
+      "dailyLimit": 1,
+      "completedCount": 42,
+      "status": "active",
+      "createdAt": "2026-11-01T20:08:18.343Z"
+    },
+    {
+      "id": "task-4",
+      "title": "Fintech Survey: Bangladesh Digital Banking 2026",
+      "category": "survey",
+      "description": "Complete a brief 4-question research survey on mobile wallet preferences (bKash vs Nagad).",
+      "rewardBdt": 35,
+      "durationSeconds": 45,
+      "targetUrl": "https://example.com/fintech-survey",
+      "instructions": "Provide authentic feedback on digital finance and mobile money transfers.",
+      "dailyLimit": 1,
+      "completedCount": 31,
+      "status": "active",
+      "createdAt": "2026-11-01T20:08:18.343Z"
+    },
+    {
+      "id": "task-5",
+      "title": "Subscribe to YouTube Tech Earnings Channel",
+      "category": "social_task",
+      "description": "Watch the introductory earning strategies video and hit the subscribe button.",
+      "rewardBdt": 20,
+      "durationSeconds": 30,
+      "targetUrl": "https://youtube.com",
+      "instructions": "Watch at least 30 seconds of the guide video and submit confirmation.",
+      "dailyLimit": 1,
+      "completedCount": 15,
+      "status": "active",
+      "createdAt": "2026-10-29T20:08:18.343Z"
+    },
+    {
+      "id": "task-6",
+      "title": "Watch Sponsored Partner Video #104",
+      "category": "video",
+      "description": "Watch high-resolution 15-second sponsor showcase video for fintech tools.",
+      "rewardBdt": 15,
+      "durationSeconds": 15,
+      "targetUrl": "https://example.com/video-partner",
+      "instructions": "Watch until the end of the video countdown without switching tabs.",
+      "dailyLimit": 2,
+      "completedCount": 56,
+      "status": "active",
+      "createdAt": "2026-11-02T20:08:18.343Z"
+    }
+  ],
+  "task_submissions": [],
+  "referrals": [
+    {
+      "id": "ref-1",
+      "referrerId": "user-demo-1",
+      "refereeId": "user-ref-2",
+      "refereeName": "Rahim Sheikh",
+      "refereeEmail": "rahim@example.com",
+      "commissionEarned": 45,
+      "status": "active",
+      "joinedAt": "2026-10-30T20:08:18.343Z"
+    },
+    {
+      "id": "ref-2",
+      "referrerId": "user-demo-1",
+      "refereeId": "user-ref-3",
+      "refereeName": "Sadia Jahan",
+      "refereeEmail": "sadia@example.com",
+      "commissionEarned": 30,
+      "status": "active",
+      "joinedAt": "2026-10-31T20:08:18.343Z"
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "w-101",
+      "userId": "user-demo-1",
+      "userName": "Tanvir Ahmed",
+      "userEmail": "user@example.com",
+      "method": "bKash",
+      "accountNumber": "01712345678",
+      "amountBdt": 400,
+      "amountUsd": 3.2,
+      "feeBdt": 8,
+      "netAmount": 392,
+      "status": "paid",
+      "trxId": "BKH984210389",
+      "adminNote": "Processed via bKash Merchant API",
+      "createdAt": "2026-10-28T20:08:18.343Z",
+      "updatedAt": "2026-10-28T21:08:18.343Z"
+    },
+    {
+      "id": "w-102",
+      "userId": "user-demo-1",
+      "userName": "Tanvir Ahmed",
+      "userEmail": "user@example.com",
+      "method": "Nagad",
+      "accountNumber": "01898765432",
+      "amountBdt": 300,
+      "amountUsd": 2.4,
+      "feeBdt": 6,
+      "netAmount": 294,
+      "status": "approved",
+      "trxId": "NGD4910284",
+      "adminNote": "Scheduled for batch transfer",
+      "createdAt": "2026-11-01T20:08:18.343Z",
+      "updatedAt": "2026-11-02T08:08:18.343Z"
+    },
+    {
+      "id": "w-103",
+      "userId": "user-demo-1",
+      "userName": "Tanvir Ahmed",
+      "userEmail": "user@example.com",
+      "method": "USDT",
+      "accountNumber": "T9yD14Nj9j7xAB4dbGeiX9h8unkkhxmTkn",
+      "amountBdt": 250,
+      "amountUsd": 2,
+      "feeBdt": 0,
+      "netAmount": 250,
+      "status": "pending",
+      "adminNote": "Pending TRC20 transfer confirmation",
+      "createdAt": "2026-11-02T20:08:18.343Z",
+      "updatedAt": "2026-11-02T20:08:18.343Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-1",
+      "userId": "user-demo-1",
+      "type": "task_reward",
+      "amountBdt": 45,
+      "balanceAfter": 650,
+      "description": "Completed Task: Install & Review Crypto Web Wallet",
+      "createdAt": "2026-11-01T20:08:18.343Z"
+    },
+    {
+      "id": "tx-2",
+      "userId": "user-demo-1",
+      "type": "ad_reward",
+      "amountBdt": 12,
+      "balanceAfter": 662,
+      "description": "Watched Sponsored Video Ad",
+      "createdAt": "2026-11-02T09:01:38.343Z"
+    },
+    {
+      "id": "tx-3",
+      "userId": "user-demo-1",
+      "type": "referral_bonus",
+      "amountBdt": 15,
+      "balanceAfter": 677,
+      "description": "New referral registration bonus: Rahim Sheikh",
+      "createdAt": "2026-11-02T11:48:18.343Z"
+    },
+    {
+      "id": "tx-4",
+      "userId": "user-demo-1",
+      "type": "withdrawal",
+      "amountBdt": -250,
+      "balanceAfter": 427,
+      "description": "Requested USDT TRC-20 Withdrawal",
+      "referenceId": "w-103",
+      "createdAt": "2026-11-02T20:08:18.343Z"
+    }
+  ],
+  "advertisements": [
+    {
+      "id": "ad-1",
+      "title": "Sultan Cloud VPS Hosting - 50% Flash Sale",
+      "type": "social_bar",
+      "position": "top_bar",
+      "bannerCodeHtml": "<div class=\"p-3 bg-gradient-to-r from-purple-900/90 via-indigo-900/90 to-purple-950/90 border border-purple-500/30 rounded-xl text-white flex items-center justify-between gap-4 shadow-lg shadow-purple-950/40\">\n        <div class=\"flex items-center gap-3\">\n          <span class=\"text-xl\">⚡</span>\n          <div>\n            <div class=\"text-xs font-bold uppercase tracking-wider text-purple-300\">Sponsored Deal</div>\n            <div class=\"text-sm font-semibold\">High-Speed Cloud VPS Servers at 50% Off · Code: SULTAN50</div>\n          </div>\n        </div>\n        <a href=\"https://example.com/vps\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"px-3.5 py-1.5 bg-amber-400 hover:bg-amber-300 text-slate-950 text-xs font-bold rounded-lg transition-colors whitespace-nowrap\">\n          Claim 50% Deal\n        </a>\n      </div>",
+      "targetUrl": "https://example.com/vps",
+      "status": "active",
+      "impressions": 412,
+      "createdAt": "2026-11-02T20:08:18.343Z"
+    },
+    {
+      "id": "ad-2",
+      "title": "Global Forex & Crypto Exchange Promotion",
+      "type": "popunder",
+      "position": "task_gate",
+      "targetUrl": "https://example.com/crypto-sponsor",
+      "bannerCodeHtml": "<div class=\"p-6 bg-slate-900/95 border border-purple-500/40 rounded-2xl text-center space-y-4\">\n        <div class=\"inline-flex p-3 bg-purple-500/20 text-purple-400 rounded-full text-2xl\">💎</div>\n        <h4 class=\"text-lg font-bold text-white\">Join 1,000,000+ Crypto Traders</h4>\n        <p class=\"text-xs text-slate-300 max-w-sm mx-auto\">Get zero trading fees for 30 days and up to $100 welcome bonus on your first verified deposit.</p>\n        <a href=\"https://example.com/crypto-sponsor\" target=\"_blank\" class=\"inline-block px-5 py-2.5 bg-purple-600 hover:bg-purple-500 text-white text-xs font-bold rounded-xl transition-colors\">Visit Sponsor Website</a>\n      </div>",
+      "rewardBdt": 0,
+      "timerSeconds": 10,
+      "status": "active",
+      "impressions": 890,
+      "createdAt": "2026-11-02T20:08:18.343Z"
+    },
+    {
+      "id": "ad-3",
+      "title": "Verified Micro-Financing & High Yield APY",
+      "type": "custom_html",
+      "position": "sidebar",
+      "bannerCodeHtml": "<div class=\"p-4 bg-gradient-to-b from-slate-900 to-purple-950/60 border border-purple-500/20 rounded-xl space-y-2\">\n        <div class=\"text-xs font-semibold text-purple-400\">FINTECH PARTNER</div>\n        <div class=\"text-sm font-bold text-white\">Earn up to 14.8% APY with Daily Dividends</div>\n        <div class=\"text-xs text-slate-400\">Regulated smart contract vaults with auto-compounding.</div>\n      </div>",
+      "targetUrl": "https://example.com/yield",
+      "status": "active",
+      "impressions": 278,
+      "createdAt": "2026-11-02T20:08:18.343Z"
+    },
+    {
+      "id": "ad-4",
+      "title": "Next-Gen Mobile Banking Showcase",
+      "type": "video",
+      "position": "video_section",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "rewardBdt": 12,
+      "timerSeconds": 15,
+      "status": "active",
+      "impressions": 340,
+      "createdAt": "2026-11-02T20:08:18.343Z"
+    }
+  ],
+  "app_settings": {
+    "platformName": "TK EARNED BD",
+    "currencyBase": "BDT",
+    "currencySymbol": "৳",
+    "bdtToUsdRate": 125,
+    "usdtWithdrawalRate": 125,
+    "minWithdrawBkash": 200,
+    "minWithdrawNagad": 200,
+    "minWithdrawUsdt": 2,
+    "referralBonusBdt": 15,
+    "referralCommissionPercent": 10,
+    "adTimerSeconds": 10,
+    "dailyVideoAdLimit": 15,
+    "announcementText": "📢 [LIVE NOTICE] Admin panel theke ja change korben ta sathe sathe main website a change hobe!",
+    "isWithdrawalEnabled": true
+  },
+  "audit_logs": [
+    {
+      "id": "audit-1793650807678-a8vi9",
+      "timestamp": "2026-11-02T20:20:07.678Z",
+      "actor": "Sultan",
+      "actorRole": "admin",
+      "action": "SETTINGS_UPDATED",
+      "details": "Updated platform settings: announcementText"
+    },
+    {
+      "id": "audit-1793650807662-x66r0",
+      "timestamp": "2026-11-02T20:20:07.662Z",
+      "actor": "Sultan",
+      "actorRole": "admin",
+      "action": "ADMIN_LOGIN",
+      "details": "Administrator logged in to SULTAN EARN backoffice console.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "audit-1793650104454-wkms9",
+      "timestamp": "2026-11-02T20:08:24.454Z",
+      "actor": "Sultan",
+      "actorRole": "admin",
+      "action": "ADMIN_LOGIN",
+      "details": "Administrator logged in to SULTAN EARN backoffice console.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-1",
+      "timestamp": "2026-10-23T20:08:18.343Z",
+      "actor": "system",
+      "actorRole": "system",
+      "action": "SYSTEM_INITIALIZED",
+      "details": "SULTAN EARN core database initialized with secure PBKDF2 hashing."
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-10-28T20:08:18.343Z",
+      "actor": "Sultan",
+      "actorRole": "admin",
+      "action": "WITHDRAWAL_PAID",
+      "targetId": "w-101",
+      "details": "bKash withdrawal for 400 BDT marked PAID. TrxID: BKH984210389"
+    }
+  ],
+  "ad_sessions": [
+    {
+      "sessionId": "ad-sess-1793650112993-fdc5",
+      "taskId": "task-1",
+      "userId": "user-demo-1",
+      "adId": "ad-2",
+      "startedAt": 1793650112993,
+      "timerSeconds": 10,
+      "token": "e2b73e7a90d29dd61157b0df9b7e33894deab8cca7fae9dada4e408a3bc2cf1e"
+    }
+  ]
+}
